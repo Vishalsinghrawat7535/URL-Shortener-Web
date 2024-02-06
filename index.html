@@ -50,6 +50,7 @@
     async function shortenUrl() {
       const longUrl = document.getElementById('urlInput').value;
 
+      
       try {
         const response = await fetch('YOUR_BACKEND_ENDPOINT', {
           method: 'POST',
